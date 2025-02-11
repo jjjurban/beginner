@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/jakuburban/Desktop/beginner",
-      "program": "/Users/jakuburban/Desktop/beginner/build/Debug/outDebug"
+      "cwd": "/Users/jakuburban/Documents/GitHub/beginner",
+      "program": "/Users/jakuburban/Documents/GitHub/beginner/build/Debug/outDebug"
     }
   ]
 }

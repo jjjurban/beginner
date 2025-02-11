@@ -1,17 +1,23 @@
 {
   "configurations": [
     {
-      "name": "macos-clang-arm64",
+      "name": "macOS",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include/SDL2"
       ],
-      "compilerPath": "/usr/bin/clang",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "macos-clang-arm64",
-      "compilerArgs": [
-        ""
-      ]
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "macos-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "/opt/homebrew/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
     }
   ],
   "version": 4
