@@ -1,1 +1,1 @@
-Random projects to get me used to this again.
+Random projects to get me used to do this again.
