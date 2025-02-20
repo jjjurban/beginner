@@ -34,10 +34,6 @@ int main() {
     int total_games, avg_number;
     float avg_guesses;
 
-    read_stats(&total_games, &avg_guesses, &avg_number);
-    low = avg_number - 20 > 1 ? avg_number - 20 : 1;
-    high = avg_number + 20 < 100 ? avg_number + 20 : 100;
-
     printf("Think of a number between 1 and 100. I’ll guess!\n");
     while (1) {
         guess = low + (high - low) / 2;
